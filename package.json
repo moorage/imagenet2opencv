@@ -1,0 +1,19 @@
+{
+  "name": "imagenet2opencv",
+  "version": "1.0.0",
+  "description": "Convert image net annotated image format to OpenCV classifier format",
+  "main": "imagenet2opencv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/moorage/imagenet2opencv.git"
+  },
+  "author": "Matthew Moore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moorage/imagenet2opencv/issues"
+  },
+  "homepage": "https://github.com/moorage/imagenet2opencv#readme"
+}
