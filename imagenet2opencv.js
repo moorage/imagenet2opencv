@@ -73,7 +73,7 @@ function readXmlFile(file) {
       }
       annotationsOutput += annotationLine + "\n";
 
-      let cp = spawn('cp', [xmlsDir + "/" + result.annotation.folder + "/" + result.annotation.filename + ".JPEG", imagesDir + "/" + result.annotation.filename + ".JPEG "]);
+      let cp = spawn('cp', [xmlsDir + "/" + result.annotation.folder + "/" + result.annotation.filename + ".JPEG", imagesDir + "/" + result.annotation.filename + ".JPEG"]);
       cp.stdout.on('data', (data) => { if (data && data.length > 0) { console.log(`cp::stdout: ${data}`); }});
       cp.stderr.on('data', (data) => { console.error(`cp::stderr: ${data}`);});
 
